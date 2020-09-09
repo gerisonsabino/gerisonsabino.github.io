@@ -27,8 +27,7 @@ const en_US = {
 };
 
 const param_lang = getUrlParams()["lang"];
-const lang = (param_lang === 'en-us' ? en_US : pt_BR);
-var i = 0;
+const lang = (param_lang === "en-us" ? en_US : pt_BR);
 
 $(document).ready(function (){
     jQuery.fn.extend({
