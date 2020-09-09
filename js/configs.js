@@ -63,14 +63,6 @@ function init(){
     $(".intro > mark").hide();
 
     $("title").text(lang.ATTR_TITLE);
-    $("meta[http-equiv='content-language']").attr("content", lang.ATTR_LANG);
-    $("meta[meta='title']").attr("content", lang.ATTR_TITLE);
-    $("meta[name='description']").attr("content", lang.ATTR_DESCRIPTION);
-    $("meta[property='og:locale']").attr("content", lang.ATTR_LOCALE);
-    $("meta[property='og:title']").attr("content", lang.ATTR_TITLE);
-    $("meta[property='og:site_name']").attr("content", lang.ATTR_TITLE);
-    $("meta[property='og:description']").attr("content", lang.ATTR_DESCRIPTION);
-    $("meta[property='og:description']").attr("content", lang.ATTR_DESCRIPTION);
 
     $("#nav-lang li a > label").html(lang.A_IDIOMA.Texto);
     $("#nav-lang li a").attr("href", "?lang=" + lang.A_IDIOMA.Param);
