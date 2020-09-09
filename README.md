@@ -2,4 +2,4 @@
 
 Desenvolvedor Full Stack • C# • ASP.NET MVC • MySQL • HTML • CSS • jQuery
 
-https://gerisonsabino.github.io
+https://gerison.net
