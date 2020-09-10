@@ -32,28 +32,14 @@ img {
     background-color: #1e1e1e
 }
 
-#nav-lang {
+nav {
     position: absolute;
     top: 20px;
     right: 20px;
     background-color: #FED525;
-    display: none;
 }
 
-#nav-lang ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    position: relative;
-    background-color: #FED525;
-}
-
-#nav-lang ul li {
-    display: inline-block;
-    background-color: #FED525;
-}
-
-#nav-lang a {
+nav a {
     display: block;
     padding: 0 20px;
     color: #1e1e1e;
@@ -64,39 +50,13 @@ img {
     font-weight: 600;
 }
 
-#nav-lang a:hover {
+nav a:hover {
     background-color: #1e1e1e !important;
     color: #FED525 !important;
 }
 
-#nav-lang a label {
+nav a label {
     cursor: pointer;
-}
-
-#nav-lang ul li a i.fa-angle-down {
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 5px;
-    float: right;
-}
-
-#nav-lang ul ul {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 0px;
-    text-align: right;
-}
-
-#nav-lang ul li:hover > ul {
-    display: inherit;
-}
-
-#nav-lang ul ul li {
-    width: 300px;
-    float: none;
-    display: list-item;
-    position: relative;
 }
 
 main {
@@ -111,6 +71,8 @@ main {
     cursor: pointer;
     color: #1e1e1e;
     text-decoration: none;
+    margin: 10px !important;
+    padding: 0px !important;
 }
 
 .icons-social a svg path {
@@ -129,10 +91,6 @@ main {
     justify-content: center;
     padding: 0 15px;
     text-align: center
-}
-
-main > header {
-    margin: 2rem 0
 }
 
 main > article > .intro {
@@ -158,7 +116,7 @@ main > article > .tagline {
     font-family: 'Reem Kufi',sans-serif
 }
 
-.icons-social a, header a {
+.icons-social a, header a, .icons-social button {
     display: inline-block
 }
 
@@ -167,18 +125,7 @@ main > article > .tagline {
 }
 
 .icons-social i {
-    font-size: 3em;
-    padding: 10px
-}
-
-.icons-social i.fa-envelope-square {
-    font-size: 6em;
-}
-
-@media (max-width:575px) {
-    main > header > a > img {
-        width: 80px
-    }
+    font-size: 2.5em;
 }
 
 @media (min-width:576px) {
@@ -189,32 +136,12 @@ main > article > .tagline {
     main > article > .intro > * {
         white-space: nowrap
     }
-
-    main > header > a > img {
-        width: 100px
-    }
 }
 
 @media (max-width:767px) {
-    #nav-lang a {
+    nav a {
         font-size: 12px;
         line-height: 40px;
-    }
-
-    #nav-lang ul ul {
-        top: 40px;
-    }
-
-    #nav-lang ul ul li {
-        width: 175px;
-    }
-
-    #nav-lang ul li a i.fa {
-        margin-top: 13px;
-    }
-
-    main > header {
-        margin: 0rem 0 !important;
     }
 }
 
@@ -222,28 +149,16 @@ main > article > .tagline {
     html {
         font-size: 16px
     }
-
-    main > header > a > img {
-        width: 115px
-    }
 }
 
 @media (min-width:992px) {
     html {
         font-size: 18px
     }
-
-    main > header > a > img {
-        width: 130px
-    }
 }
 
 @media (min-width:1200px) {
     html {
         font-size: 20px
-    }
-
-    main > header > a > img {
-        width: 150px
     }
 }

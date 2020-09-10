@@ -63,8 +63,8 @@ function init(){
 
     $("title").text(lang.ATTR_TITLE);
 
-    $("#nav-lang li a > label").html(lang.A_IDIOMA.Texto);
-    $("#nav-lang li a").attr("href", "?lang=" + lang.A_IDIOMA.Param);
+    $("nav a > label").html(lang.A_IDIOMA.Texto);
+    $("nav a").attr("href", "?lang=" + lang.A_IDIOMA.Param);
 
     $(".intro > label").typeText(lang.SAUDACAO, 100);
     
@@ -75,9 +75,7 @@ function init(){
 
     $("p.tagline").html(lang.DESCRICAO);
 
-    $("#nav-lang").show();
-
-    $("#btn-mailto").click(function () {
+    $("a[href='#mailto']").click(function () {
         document.location.href = "mailto:gerison@outlook.com.br";
     });
 };
