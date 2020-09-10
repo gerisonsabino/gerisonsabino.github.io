@@ -141,7 +141,7 @@ main > article > .tagline {
 @media (max-width:767px) {
     nav {
         position: inherit !important;
-        margin-bottom: 50px;
+        margin-bottom: 1.5em;
         text-align: right;
     }
 
