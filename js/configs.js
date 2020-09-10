@@ -26,10 +26,11 @@ const en_US = {
     DESCRICAO: "Full Stack Developer • C# • ASP.NET MVC • MySQL • HTML • CSS • jQuery"
 };
 
+const user_lang = navigator.language;
 const param_lang = getUrlParams()["lang"];
-const lang = (param_lang === "en-us" ? en_US : pt_BR);
+const lang = (param_lang !== undefined) ? (param_lang === "en-us" ? en_US : pt_BR) : ((user_lang !== "pt-BR") ? en_US : pt_BR);
 
-$(document).ready(function (){
+$(document).ready(function () {
     jQuery.fn.extend({
         typeText: function (text, interval) {
             for (let i = 0; i < text.length; i++) {
@@ -58,7 +59,7 @@ function getUrlParams() {
     return params;
 }
 
-function init(){
+function init() {
     $(".intro > mark").hide();
 
     $("title").text(lang.ATTR_TITLE);
