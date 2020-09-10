@@ -104,9 +104,13 @@ main {
     color: #1e1e1e
 }
 
-.icons-social a {
+.icons-social a, .icons-social button {
+    background-color: #FED525;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
     color: #1e1e1e;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .icons-social a svg path {
@@ -158,13 +162,17 @@ main > article > .tagline {
     display: inline-block
 }
 
-.icons-social a:active, header a:active {
+.icons-social a:active, header a:active, .icons-social button:active {
     transform: translateY(5px)
 }
 
 .icons-social i {
     font-size: 3em;
     padding: 10px
+}
+
+.icons-social i.fa-envelope-square {
+    font-size: 6em;
 }
 
 @media (max-width:575px) {

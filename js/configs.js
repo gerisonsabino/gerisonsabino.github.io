@@ -76,4 +76,8 @@ function init(){
     $("p.tagline").html(lang.DESCRICAO);
 
     $("#nav-lang").show();
+
+    $("#btn-mailto").click(function () {
+        document.location.href = "mailto:gerison@outlook.com.br";
+    });
 };
