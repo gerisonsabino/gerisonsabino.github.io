@@ -1,1 +1,0 @@
-$(document).ready(function(){ready();});function gtag(){dataLayer.push(arguments);}function ready() {window.dataLayer = window.dataLayer || [];gtag('js', new Date());gtag('config', 'UA-144098381-3');let data = new Date();$("#span-ano").text(data.getFullYear());};
