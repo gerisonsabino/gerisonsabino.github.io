@@ -1,1 +1,1 @@
-window.onload = function () { ready(); };function gtag() { dataLayer.push(arguments); }function ready() {window.dataLayer = window.dataLayer || [];gtag('js', new Date());gtag('config', 'UA-144098381-3');document.getElementById("ano").innerText = new Date().getFullYear().toString();};
+window.onload = function () { ready(); };function gtag() { dataLayer.push(arguments); }function ready() {window.dataLayer = window.dataLayer || [];gtag('js', new Date());gtag('config', 'UA-144098381-3');document.getElementById("sp-ano").innerText = new Date().getFullYear().toString();};
