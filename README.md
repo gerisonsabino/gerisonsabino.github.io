@@ -1,5 +1,5 @@
-# "Olá, Mundo!" Eu sou o Gérison...
+# gerisonsabino.github.io
 
-Desenvolvedor Full Stack C#/.NET
+Olá, Mundo! Eu sou o Gérison... Desenvolvedor Full Stack C#/ASP.NET MVC.
 
-https://gerison.net
+https://www.gerison.net
