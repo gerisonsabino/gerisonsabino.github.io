@@ -1,5 +1,5 @@
 ## Gérison Sabino
 
-Dev Full Stack C#/ASP.NET MVC
+Dev. Full Stack C#/ASP.NET
 
 https://gerisonsabino.com
